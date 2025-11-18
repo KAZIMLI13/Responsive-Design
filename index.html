@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Kazımlı Nadir - Computer Science Student Portfolio" />
+    <meta name="author" content="Kazımlı Nadir" />
+    <title>Kazımlı Nadir - Portfolio</title>
+
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "7XaIX1nvgm0GOOTVf",
+            });
+        })();
+    </script>
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Kazımlı Nadir</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#academic">Academic</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#favorites">Favorites</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="dark-toggle"><i class="fas fa-moon"></i></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Hi, I'm Kazımlı Nadir</h1>
+            <p>Computer Science Student | Developer | Educational Tech Innovator</p>
+            <a class="btn btn-primary btn-lg js-scroll-trigger" href="#projects">View My Work</a>
+        </div>
+        <canvas id="heroCanvas"></canvas>
+    </header>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-heading">Technical Skills</h2>
+            <p class="section-subheading">Technologies and tools I work with</p>
+            <div class="row">
+                <div class="col-md-4 mb-4 skill-item">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, JavaScript, React.js, Node.js, Bootstrap, Responsive Design</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 skill-item">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>Backend & Databases</h4>
+                        <p>Python, Java, SQL, MongoDB, REST APIs, Express.js, Authentication</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 skill-item">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                        <h4>Tools & Methods</h4>
+                        <p>Git, GitHub, VS Code, Agile, CI/CD, Testing, Docker, Linux</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-heading">Coding Projects</h2>
+            <p class="section-subheading">Some of my recent work and contributions</p>
+            <div class="row">
+                <div class="col-md-6 mb-4 project-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <i class="fas fa-graduation-cap project-icon"></i>
+                                <h4>Sci.Calls</h4>
+                                <p>Peer-Based Learning Platform</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>A comprehensive web-based educational platform facilitating peer-based learning.
+                                    Features scheduling system, real-time communication, content library, progress
+                                    tracking dashboards, community forums, and integrated payment system for
+                                    monetization.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">Web Development</span>
+                                    <span class="tech-badge">Real-Time Communication</span>
+                                    <span class="tech-badge">Payment Integration</span>
+                                    <span class="tech-badge">Educational Tech</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 project-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <i class="fas fa-comments project-icon"></i>
+                                <h4>Real-Time Chat App</h4>
+                                <p>WebSocket Messaging</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>WebSocket-based chat application with rooms, private messaging, and file sharing.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">Socket.io</span>
+                                    <span class="tech-badge">Express</span>
+                                    <span class="tech-badge">JWT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 project-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <i class="fas fa-tasks project-icon"></i>
+                                <h4>Safari Management Game</h4>
+                                <p>2D Strategy Game</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Manage an African safari with animals, tourists, resources, and dynamic ecosystems.
+                                    Features include animal behavior AI, pathfinding, day-night cycles, and economic
+                                    management systems.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">C#</span>
+                                    <span class="tech-badge">Godot Engine</span>
+                                    <span class="tech-badge">Game Development</span>
+                                    <span class="tech-badge">Team Project</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 project-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <i class="fas fa-chart-line project-icon"></i>
+                                <h4>Data Visualization Dashboard</h4>
+                                <p>Interactive Analytics</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Interactive analytics dashboard with real-time data processing and multiple chart
+                                    types.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">D3.js</span>
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Flask</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="academic">
+        <div class="container">
+            <h2 class="section-heading">Academic Journey</h2>
+            <p class="section-subheading">My educational background and achievements</p>
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <div class="timeline-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Present</h4>
+                            <h4 class="subheading">Bachelor's in Computer Science</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Currently pursuing Computer Science BSc with focus on web development, educational
+                                technology, and software engineering. Working on thesis: "Design and Development of a
+                                Web-Based Educational Platform for Facilitating Peer-Based Learning" at the Department
+                                of Programming Languages and Compilers.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Current</h4>
+                            <h4 class="subheading">Thesis Project - Sci.Calls Platform</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Developing a comprehensive peer-based learning platform as part of BSc thesis. The
+                                platform enables senior students to teach junior students, featuring real-time
+                                communication, scheduling, content library, progress tracking, and payment integration
+                                for sustainable educational services.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-image">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2022-2025</h4>
+                            <h4 class="subheading">Multiple Projects Completed</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Implementation of Rubick Clock, Safari Management Game and various other projects using
+                                C#, Java, Python, Godot and etc. </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="favorites">
+        <div class="container">
+            <h2 class="section-heading">My Favorites</h2>
+            <p class="section-subheading">Things I love and enjoy in my free time</p>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #e74c3c;">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h4>Gaming</h4>
+                    <p>Strategy games, RPGs, and esports. Favorite: Dream League Soccer</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #f39c12;">
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+                    <h4>Food</h4>
+                    <p>Italian and Mexican cuisine, desserts, and coffee. Always exploring new restaurants!</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #27ae60;">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h4>Sports</h4>
+                    <p>Football, table tennis, basketball, volleyball and cycling.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #3498db;">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h4>Reading</h4>
+                    <p>Detective, tech blogs, and self-improvement books.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #9b59b6;">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h4>Music</h4>
+                    <p>Boombap and lo-fi beats. Always coding with good music!</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #e67e22;">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h4>Travel</h4>
+                    <p>Exploring new cultures and cities. Dream destination: Tokyo, Japan</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #16a085;">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h4>Poetry</h4>
+                    <p>Writing poems and exploring creative expression.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 favorite-item">
+                    <div class="favorite-icon" style="color: #c0392b;">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h4>Movies</h4>
+                    <p>Thrillers, documentaries, and more. Favorite: The Jacket</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-heading">Get In Touch</h2>
+            <p class="section-subheading">Let's work together on your next project</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                        required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                        required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="subject" type="text" placeholder="Subject" />
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message *"
+                                required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary btn-lg" type="submit">Send Message</button>
+                        </div>
+                        <div id="success"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://github.com/KAZIMLI13" class="social-btn" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nadir.kazimli2@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="col-12 mt-3">
+                    <p>&copy; <span id="currentYear"></span> SupremeDev | Kazımlı Nadir. <br>All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
